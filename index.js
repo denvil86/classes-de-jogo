@@ -23,4 +23,12 @@ class hero {
 
         return (`O ${this.tipo} atacou usando ${ataque} `);
     }
-}
+}       
+
+const mago = new hero('Denvil', 86, 'mago');
+mago.atacar();
+const ninja = new hero('Sasuke', 35, 'ninja');
+ninja.atacar();
+
+console.log(mago.atacar())
+console.log(ninja.atacar());
